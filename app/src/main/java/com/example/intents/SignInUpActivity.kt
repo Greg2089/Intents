@@ -35,7 +35,7 @@ class SignInUpActivity : AppCompatActivity() {
 
         if (signState == Constance.SIGN_UP_STATE) {
 
-            val intent = Intent()
+            //val intent = Intent()
             intent.putExtra(Constance.LOGIN, binding.edLogin.text.toString())
             intent.putExtra(Constance.PASSWORD, binding.edPassword.text.toString())
             intent.putExtra(Constance.NAME, binding.edName.text.toString())
